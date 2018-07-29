@@ -1,0 +1,694 @@
+/getSearchResults
+Method: get
+
+Success Sample
+Request:
+https://web.cs.dal.ca/~gayathrib/csci5709/project/getSearchResults/onion
+
+Response:
+{
+    "status": "SUCCESS",
+    "data": [
+        [
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "1",
+                "storeid": "2",
+                "brandname": "",
+                "price": "2.00",
+                "quantity": "0",
+                "store_type": "Offline",
+                "prod_name": "Onions",
+                "store_lat": "44.637269",
+                "store_long": "-63.573997",
+                "store_name": "Sobey's"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "1",
+                "storeid": "4",
+                "brandname": "",
+                "price": "2.50",
+                "quantity": "80",
+                "store_type": "Offline",
+                "prod_name": "Onions",
+                "store_lat": "44.646478",
+                "store_long": "-63.620721",
+                "store_name": "Walmart - Spring Garden"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "1",
+                "storeid": "1",
+                "brandname": "",
+                "price": "3.00",
+                "quantity": "500",
+                "store_type": "Offline",
+                "prod_name": "Onions",
+                "store_lat": "44.646478",
+                "store_long": "-63.620721",
+                "store_name": "Walmart"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "1",
+                "storeid": "5",
+                "brandname": "",
+                "price": "3.25",
+                "quantity": "97",
+                "store_type": "Offline",
+                "prod_name": "Onions",
+                "store_lat": "40.741895",
+                "store_long": "-73.989308",
+                "store_name": "Atlantic - Spring Garden"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "1",
+                "storeid": "3",
+                "brandname": "",
+                "price": "4.00",
+                "quantity": "10",
+                "store_type": "Offline",
+                "prod_name": "Onions",
+                "store_lat": "40.741895",
+                "store_long": "-73.989308",
+                "store_name": "Atlantic"
+            }
+        ],
+        [
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "2",
+                "storeid": "4",
+                "brandname": "",
+                "price": "2.50",
+                "quantity": "80",
+                "store_type": "Offline",
+                "prod_name": "Shallot Onions",
+                "store_lat": "44.646478",
+                "store_long": "-63.620721",
+                "store_name": "Walmart - Spring Garden"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "2",
+                "storeid": "2",
+                "brandname": "",
+                "price": "2.70",
+                "quantity": "0",
+                "store_type": "Offline",
+                "prod_name": "Shallot Onions",
+                "store_lat": "44.637269",
+                "store_long": "-63.573997",
+                "store_name": "Sobey's"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "2",
+                "storeid": "5",
+                "brandname": "",
+                "price": "3.25",
+                "quantity": "97",
+                "store_type": "Offline",
+                "prod_name": "Shallot Onions",
+                "store_lat": "40.741895",
+                "store_long": "-73.989308",
+                "store_name": "Atlantic - Spring Garden"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "2",
+                "storeid": "1",
+                "brandname": "",
+                "price": "3.60",
+                "quantity": "500",
+                "store_type": "Offline",
+                "prod_name": "Shallot Onions",
+                "store_lat": "44.646478",
+                "store_long": "-63.620721",
+                "store_name": "Walmart"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "2",
+                "storeid": "3",
+                "brandname": "",
+                "price": "4.00",
+                "quantity": "10",
+                "store_type": "Offline",
+                "prod_name": "Shallot Onions",
+                "store_lat": "40.741895",
+                "store_long": "-73.989308",
+                "store_name": "Atlantic"
+            }
+        ],
+        [],
+        [
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "9",
+                "storeid": "5",
+                "brandname": "",
+                "price": "0.85",
+                "quantity": "97",
+                "store_type": "Offline",
+                "prod_name": "Big Onions",
+                "store_lat": "40.741895",
+                "store_long": "-73.989308",
+                "store_name": "Atlantic - Spring Garden"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "9",
+                "storeid": "3",
+                "brandname": "",
+                "price": "1.60",
+                "quantity": "10",
+                "store_type": "Offline",
+                "prod_name": "Big Onions",
+                "store_lat": "40.741895",
+                "store_long": "-73.989308",
+                "store_name": "Atlantic"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "9",
+                "storeid": "2",
+                "brandname": "",
+                "price": "2.00",
+                "quantity": "0",
+                "store_type": "Offline",
+                "prod_name": "Big Onions",
+                "store_lat": "44.637269",
+                "store_long": "-63.573997",
+                "store_name": "Sobey's"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "9",
+                "storeid": "4",
+                "brandname": "",
+                "price": "2.90",
+                "quantity": "80",
+                "store_type": "Offline",
+                "prod_name": "Big Onions",
+                "store_lat": "44.646478",
+                "store_long": "-63.620721",
+                "store_name": "Walmart - Spring Garden"
+            },
+            {
+                "categoryid": "24",
+                "category_name": "GROCERY",
+                "prodid": "9",
+                "storeid": "1",
+                "brandname": "",
+                "price": "3.00",
+                "quantity": "500",
+                "store_type": "Offline",
+                "prod_name": "Big Onions",
+                "store_lat": "44.646478",
+                "store_long": "-63.620721",
+                "store_name": "Walmart"
+            }
+        ]
+    ]
+}
+
+Empty Sample
+Request:
+https://web.cs.dal.ca/~gayathrib/csci5709/project/getSearchResults/onion1
+
+Response:
+{
+    "status": "SUCCESS",
+    "data": []
+}
+
+
+/setUser
+Method:post
+
+Success Sample
+Request:
+
+{
+	
+	"firstname" : "aaa",
+	"lastname" : "bbb",
+	"email" : "fathi@stupid.com",
+	"password" : "idiot",
+	"contact" : "999999999"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "userStatus": "USER_ADDED"
+        }
+    ]
+}
+
+Duplicate Sample:
+Request:
+
+{
+	
+	"firstname" : "aaa1",
+	"lastname" : "bbb",
+	"email" : "fathi@stupid.com",
+	"password" : "idiot",
+	"contact" : "999999999"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "userStatus": "USER_NOT_ADDED"
+        }
+    ],
+    "errors": [
+        "email already registered"
+    ]
+}
+
+Failure Sample
+Request:
+
+{
+	
+	"firstname" : "",
+	"lastname" : "",
+	"email" : "xathi@stupid.com",
+	"password" : "idiot",
+	"contact" : "999999999"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "addressStatus": "USER_NOT_ADDED"
+        }
+    ],
+    "errors": [
+        "firstname is required",
+        "lastname is required"
+    ]
+}
+
+/checkLogin
+Method:post
+
+Success Sample
+Request:
+
+{
+	"user_id" : "d@live.in",
+	"password" : "12345678"
+	
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "userid": "24",
+            "firstname": "Deep",
+            "lastname": "Singh",
+            "loginStatus": "LOGIN_SUCCESS"
+        }
+    ]
+}
+
+Failure Sample:
+Request:
+
+{
+	"user_id" : "d@live.in",
+	"password" : "123456789"
+	
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "loginStatus": "LOGIN_FAILURE"
+        }
+    ]
+}
+
+
+/setAddress
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"address_line_1" : "21",
+	"address_line_2" :"ta",
+	"city" : "Halifax",
+	"province" : "NS",
+	"postal_code" : "B3L4P7",
+	"user_id" : "8"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "addressStatus": "ADDRESS_ADDED",
+            "addressID": "27"
+        }
+    ]
+}
+
+Failure Sample:
+Request:
+
+{
+	"address_line_1" : "",
+	"address_line_2" :"ta",
+	"city" : "Halifax",
+	"province" : "NS",
+	"postal_code" : "B3L4P7",
+	"user_id" : "8"
+}
+
+Response:
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "addressStatus": "ADDRESS_NOT_ADDED"
+        }
+    ],
+    "errors": [
+        "addr_line1 is required"
+    ]
+}
+
+
+/getAddress
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"user_id" : "8"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "address_id": "21",
+            "addr_line1": "26 AIBEA Nagar",
+            "addr_line2": "Mogappair West",
+            "city": "Halifax",
+            "province": "NS",
+            "postal_code": "B3J 2K9",
+            "userid": "8"
+        },
+        {
+            "address_id": "22",
+            "addr_line1": "26",
+            "addr_line2": "asd",
+            "city": "Halifax",
+            "province": "NS",
+            "postal_code": "B3J 2K9",
+            "userid": "8"
+        },
+        {
+            "address_id": "26",
+            "addr_line1": "99",
+            "addr_line2": "",
+            "city": "Halifax",
+            "province": "NS",
+            "postal_code": "B3L4P7",
+            "userid": "8"
+        }
+    ]
+}
+
+Empty Sample:
+Request:
+
+{
+	"user_id" : "800"
+}
+
+Response:
+{
+    "status": "SUCCESS",
+    "data": []
+}
+
+
+/updateAddress
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"address_line_1" : "22",
+	"address_line_2" :"ra",
+	"city" : "Halifax",
+	"province" : "NS",
+	"postal_code" : "B3L4P7",
+	"address_id" : "27"
+}
+
+Response:
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "addressStatus": "ADDRESS_UPDATED"
+        }
+    ]
+}
+
+
+/deleteAddress
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"address_id" : "29"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "addressStatus": "ADDRESS_DELETED"
+        }
+    ]
+}
+
+
+/setCardDetails:
+Methdo:post
+
+Success Sample:
+Request:
+
+{
+	"card_number" : "123456789023456",
+	"expiry_date" : "2010-02-02",
+	"cvv" : "987",
+	"card_type" : "Visa",
+	"user_id" : "8"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "cardStatus": "CARD_ADDED",
+            "cardID": "26"
+        }
+    ]
+}
+
+Failure Sample:
+Resquest:
+
+{
+	"card_number" : "123456789023456",
+	"expiry_date" : "2010-02-02",
+	"cvv" : "987",
+	"card_type" : "",
+	"user_id" : "8"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "cardStatus": "CARD_NOT_ADDED"
+        }
+    ],
+    "errors": [
+        "cardtype is required"
+    ]
+}
+
+
+/getCardDetails:
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"user_id" : "8"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "card_id": "21",
+            "card_number": "123456789023456",
+            "expiry_date": "2010-02-02",
+            "cvv": "987",
+            "card_type": "Visa"
+        },
+        {
+            "card_id": "22",
+            "card_number": "123456789023456",
+            "expiry_date": "2010-02-02",
+            "cvv": "987",
+            "card_type": "Visa"
+        },
+        {
+            "card_id": "23",
+            "card_number": "",
+            "expiry_date": "2010-02-02",
+            "cvv": "987",
+            "card_type": "Visa"
+        },
+        {
+            "card_id": "25",
+            "card_number": "1234567890111111",
+            "expiry_date": "2010-02-02",
+            "cvv": "987",
+            "card_type": "Visa"
+        },
+        {
+            "card_id": "26",
+            "card_number": "123456789023456",
+            "expiry_date": "2010-02-02",
+            "cvv": "987",
+            "card_type": "Visa"
+        }
+    ]
+}
+
+Empty Sample:
+Request:
+
+{
+	"user_id" : "800"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": []
+}
+
+
+/updateCardDetails
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"card_number" : "1234567890111111",
+	"expiry_date" : "2010-02-02",
+	"cvv" : "987",
+	"card_type" : "Visa",
+	"cardid" : "25"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "cardStatus": "CARD_DETAILS_UPDATED"
+        }
+    ]
+}
+
+
+/deleteCardDetails
+Method:post
+
+Success Sample:
+Request:
+
+{
+	"cardid" : "24"
+}
+
+Response:
+
+{
+    "status": "SUCCESS",
+    "data": [
+        {
+            "cardStatus": "CARD_DETAILS_DELETED"
+        }
+    ]
+}
